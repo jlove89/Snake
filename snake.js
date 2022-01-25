@@ -1,1 +1,9 @@
-export const SNAKE_SPEED = 2
+export const SNAKE_SPEED = 1
+
+function update() {
+
+}
+
+function draw() {
+
+}

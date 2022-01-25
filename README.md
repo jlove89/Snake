@@ -1,5 +1,5 @@
-# Snake Game
+# Snake
 
-# My version of Snake Game
+# My version of the Snake Game
 
 # ENJOY!
