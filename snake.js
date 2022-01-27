@@ -57,3 +57,5 @@ function addSegments() {
 
     newSegments = 0
 }
+
+//done

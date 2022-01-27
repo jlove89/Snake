@@ -1,8 +1,6 @@
 # Snake
 
---
 
-Creator : Jeremy Love
+I need to update this asap.
 
-
-
+Created by Jeremy Love
