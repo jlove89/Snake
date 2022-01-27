@@ -1,5 +1,8 @@
 # Snake
 
-# My version of the Snake Game
+--
 
-# ENJOY!
+Creator : Jeremy Love
+
+
+
