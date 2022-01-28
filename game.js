@@ -1,4 +1,4 @@
-import { update as updateSnake, draw as drawSnake, SNAKE_SPEED, getSnakeHead, snakeIntersection } from './snake.js'
+import { update as updateSnake, draw as drawSnake, SNAKE_SPEED, getSnakeHead, snakeIntersection, onSnake } from './snake.js'
 
 import { update as updateFood, draw as drawFood} from './food.js'
 
@@ -6,11 +6,12 @@ import { outsideGrid } from './grid.js'
 
 let lastRenderTime = 0
 let gameOver = false
-let score = 0
+//var score = 0
 const gameBoard = document.getElementById('game-board')
-const scoreBoard = document.getElementById('score-board')
+//const scoreBoard = document.getElementById('score-board')
 
 function main(currentTime) {
+
     if (gameOver) {
       if (confirm('Game Over. Press ok to restart.')) {
           window.location = '/'

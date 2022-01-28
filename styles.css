@@ -28,14 +28,14 @@ body {
 
 }
 
-#score-board{
+/* #score-board{
     padding:12px;
     position:absolute;
     top:12px;
     right:13px;
     height:15vw;
     width:25vw;
-    color:white;
+    color:rgb(255, 254, 254);
     font-size: 40px;
     font-family: 'Tourney';
     font-weight:bold;
@@ -44,3 +44,9 @@ body {
 #score-board:hover{
     transform:scale(1.01);
 }
+.name{
+    color:rgb(255, 255, 255);
+}
+.score{
+    color:rgb(255, 255, 255);
+}  */
