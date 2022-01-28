@@ -6,42 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snake</title>
     <script src="game.js" defer type="module"></script>
-    
-    <!-- Added CSS style here -->
-    
-    <style>
-        body {
-            min-height: 100vh;
-            min-width: 100vw;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 0;
-            background-color: black;
-        }
-
-        #game-board {
-            background-color: #ccc;
-            width: 100vmin;
-            height: 100vmin;
-            display: grid;
-            grid-template-rows: repeat(21, 1fr);
-            grid-template-columns: repeat(21, 1fr);
-        }
-        .snake {
-            background-color: darkgreen;
-            border: .25vmin solid black;
-
-
-        }
-        .food {
-            background-color: goldenrod;
-            border: .25vmin solid black;
-
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div id="scoreboard"> Score:0</div>
     <div id="game-board"></div>
 </body>
 </html>
