@@ -43,3 +43,4 @@ function draw() {
 function checkDeath() {
     gameOver = outsideGrid(getSnakeHead()) || snakeIntersection()
 }
+//done
