@@ -1,9 +1,13 @@
 # Snake
 
+### Controls
+
 Use arrow keys for controls.
 
-Website based game... for now.
+### Link for game
+https://condescending-galileo-63fe41.netlify.app/
 
+Web-based game... for now.
 Follow my commits if you would like to see how I made this game.
-
-Created by Jeremy Love
+---
+By Jeremy Love
