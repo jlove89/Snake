@@ -31,13 +31,15 @@ body {
 #score-board{
     padding:12px;
     position:absolute;
-    top:12px;
-    right:13px;
-    height:15vw;
-    width:25vw;
+    justify-content: right;
+    align-items: right;
+    top:12vmin;
+    right:13vmin;
+    height:15vmin;
+    width:25vmin;
     color:white;
-    font-size: 40px;
-    font-family: 'Tourney';
+    font-size:40px;
+    font-family:'Tourney';
     font-weight:bold;
 
 }

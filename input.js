@@ -1,6 +1,8 @@
+// your snake won't move without this
 let inputDirection = { x: 0, y: 0}
 let lastInputDirection = { x: 0, y: 0}
 
+// event listener for arrow key controls
 window.addEventListener('keydown', e => {
     switch (e.key) {
         case 'ArrowUp' : 
@@ -23,6 +25,7 @@ window.addEventListener('keydown', e => {
     }
 })
 
+// stores our last move taken
 export function getInputDirection() {
     lastInputDirection = inputDirection
     return inputDirection

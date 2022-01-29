@@ -1,6 +1,6 @@
 # Snake
 
-Use arrows on keyboard to control.
+Use arrow keys for controls.
 
 Website based game... for now.
 
