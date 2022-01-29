@@ -44,4 +44,4 @@ function checkDeath() {
     gameOver = outsideGrid(getSnakeHead()) || snakeIntersection()
 }
 
-// I took hours looking for documentation on scoring. idk what to do. smh
+// I took hours looking for documentation on score + 1. idk what to write into a function for scoring.

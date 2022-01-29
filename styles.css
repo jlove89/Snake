@@ -27,3 +27,20 @@ body {
     border: .25vmin solid black;
 
 }
+
+#score-board{
+    padding:12px;
+    position:absolute;
+    top:12px;
+    right:13px;
+    height:15vw;
+    width:25vw;
+    color:white;
+    font-size: 40px;
+    font-family: 'Tourney';
+    font-weight:bold;
+
+}
+#score-board:hover{
+    transform:scale(1.01);
+}
