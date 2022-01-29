@@ -6,13 +6,10 @@ import { outsideGrid } from './grid.js'
 
 let lastRenderTime = 0
 let gameOver = false
-//var score = 0
 const gameBoard = document.getElementById('game-board')
-//const scoreBoard = document.getElementById('score-board')
 
 function main(currentTime) {
-
-    if (gameOver) {
+      if (gameOver) {
       if (confirm('Game Over. Press ok to restart.')) {
           window.location = '/'
       }
@@ -46,3 +43,5 @@ function draw() {
 function checkDeath() {
     gameOver = outsideGrid(getSnakeHead()) || snakeIntersection()
 }
+
+// I took hours looking for documentation on scoring. idk what to do. smh

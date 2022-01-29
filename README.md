@@ -1,6 +1,5 @@
 # Snake
 
-
-I need to update this asap.
+Need to update.
 
 Created by Jeremy Love
