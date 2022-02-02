@@ -45,4 +45,49 @@ body {
 }
 #score-board:hover{
     transform:scale(1.01);
-} /*done*/
+}
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#instructions {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    right: 8em;
+    width: 20vw;
+    bottom: 5em;
+    visibility: hidden;
+}
+h1 {
+    text-align: center;
+    border: 1px solid green;
+    color: green;
+}
+#score {
+    color: white;
+    position: relative;
+}
+#high-score {
+    color: white;
+    position: relative;
+}
+li {
+    color: white;
+}
+#mobile {
+    position: absolute;
+    color: white;
+}
+@media (min-width: 1000px) {
+#instructions {
+    visibility: visible
+}
+    #mobile {
+    display: none
+ }
+}
