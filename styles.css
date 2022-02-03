@@ -5,11 +5,11 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    background-color: black;
+    background-color: #000;
 }
 
 #game-board {
-    background-color: #ccc;
+    background-color: #68d468;
     width: 100vmin;
     height: 100vmin;
     display: grid;
@@ -17,71 +17,67 @@ body {
     grid-template-columns: repeat(21, 1fr);
 }
 .snake {
-    background-color: darkgreen;
-    border: .25vmin solid black;
+    border-radius: 50%;
+    background-color: #006400;
+    border: .25vmin solid #000;
 
 
 }
 .food {
-    background-color: goldenrod;
-    border: .25vmin solid black;
+    background-color: #daa520;
+    border: .25vmin solid #000000;
 
 }
 
 #score-board{
-    padding:12px;
-    position:absolute;
-    justify-content: right;
-    align-items: right;
-    top:12vmin;
+    padding: 15px;
+    display: flex;
+    position:fixed;
+    justify-content:right;
+    align-items:right;
     right:13vmin;
     height:15vmin;
     width:25vmin;
-    color:white;
+    color:#ffffff;
     font-size:40px;
-    font-family:'Tourney';
+    font-family:'Arial';
     font-weight:bold;
-
 }
-#score-board:hover{
+#score-board:right{
     transform:scale(1.01);
 }
 body {
-    background-color: black;
+    background-color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 #instructions {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     position: relative;
-    right: 8em;
-    width: 20vw;
-    bottom: 5em;
+    font-size:25px;
+    font-family:'Arial';
+    right:8em;
+    width:20vw;
+    bottom:5em;
     visibility: hidden;
 }
 h1 {
     text-align: center;
-    border: 1px solid green;
-    color: green;
-}
-#score {
-    color: white;
-    position: relative;
-}
-#high-score {
-    color: white;
-    position: relative;
+    border: 1px solid #13c7be;
+    color: #13c7be;
 }
 li {
-    color: white;
+    color: #ffffff;
+    font-size:25px;
+    font-family:'Arial';
+    font-weight: bold;
 }
 #mobile {
     position: absolute;
-    color: white;
+    color: #ffffff;
 }
 @media (min-width: 1000px) {
 #instructions {
