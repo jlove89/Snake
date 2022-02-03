@@ -9,6 +9,7 @@ const gameBoard = document.getElementById('game-board')
 
 // pop up tells you to restart
 function main(currentTime) {    
+    checkLose()
     if (gameOver) {
     if (confirm('Game Over. Press ok to restart.')) {
     window.location = '/'
