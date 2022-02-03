@@ -30,12 +30,8 @@ body {
 }
 
 #score-board{
-    display: flex;
     position:relative;
-    justify-content:right;
-    align-items:right;
-    left:6px;
-    width:25px;
+    left: 7.7px;
     color:#ffffff;
     font-size:40px;
     font-family:'Arial';
@@ -44,27 +40,15 @@ body {
 #score-board:right{
     transform:scale(1.01);
 }
-#instructions {
-    display: flex;
-    flex-direction: row;
-    justify-content:left;
-    align-items: left;
-    position: relative;
-    font-size:25px;
-    font-family:'Arial';
-    right:60px;
-    width:20px;
-    bottom:10px;
-    visibility: hidden;
-}
 h1 {
-    text-align: left;
+    position:sticky;
     border: 5px solid #13c7be;
     color: #13c7be;
 }
 li {
+    position:relative;
     color: #ffffff;
-    font-size:25px;
+    font-size:x-large;
     font-family:'Arial';
     font-weight: bold;
 }
@@ -73,9 +57,6 @@ li {
     color: #ffffff;
 }
 @media (min-width: 1000px) {
-#instructions {
-    visibility: visible
-}
 #mobile {
     display: none
  }
