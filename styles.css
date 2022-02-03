@@ -30,13 +30,11 @@ body {
 }
 
 #score-board{
-    padding: 15px;
     display: flex;
     position:fixed;
     justify-content:right;
-    align-items:right;
+    align-items:center;
     right:13vmin;
-    height:15vmin;
     width:25vmin;
     color:#ffffff;
     font-size:40px;
@@ -87,4 +85,3 @@ li {
     display: none
  }
 }
-/*done*/

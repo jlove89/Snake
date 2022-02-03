@@ -24,10 +24,8 @@ window.addEventListener('keydown', e => {
     
     }
 })
-
 // stores last direction taken
 export function getInputDirection() {
   lastInputDirection = inputDirection
   return inputDirection
-} 
-//done
+}

@@ -26,7 +26,6 @@ const secondsSinceLastRender = (currentTime - lastRenderTime) / 1000
 }
 
 window.requestAnimationFrame(main)
-
 // snake updates upon eating food or runs into wall or itself
 function update() {
     updateSnake()
