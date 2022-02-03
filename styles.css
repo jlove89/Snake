@@ -1,6 +1,6 @@
 body {
-    min-height: 100vh;
-    min-width: 100vw;
+    min-height: 0px;
+    min-width: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,11 +31,11 @@ body {
 
 #score-board{
     display: flex;
-    position:fixed;
+    position:relative;
     justify-content:right;
-    align-items:center;
-    right:13vmin;
-    width:25vmin;
+    align-items:right;
+    left:6px;
+    width:25px;
     color:#ffffff;
     font-size:40px;
     font-family:'Arial';
@@ -44,27 +44,21 @@ body {
 #score-board:right{
     transform:scale(1.01);
 }
-body {
-    background-color: #000000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 #instructions {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content:left;
+    align-items: left;
     position: relative;
     font-size:25px;
     font-family:'Arial';
-    right:8em;
-    width:20vw;
-    bottom:5em;
+    right:60px;
+    width:20px;
+    bottom:10px;
     visibility: hidden;
 }
 h1 {
-    text-align: center;
-    border: 1px solid #13c7be;
+    border: 5px solid #13c7be;
     color: #13c7be;
 }
 li {

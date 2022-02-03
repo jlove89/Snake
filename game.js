@@ -1,4 +1,4 @@
-import { update as updateSnake, draw as drawSnake, SNAKE_SPEED, getSnakeHead, snakeIntersection, onSnake } from './snake.js'
+import { update as updateSnake, draw as drawSnake, SNAKE_SPEED, getSnakeHead, snakeIntersection } from './snake.js'
 import { update as updateFood, draw as drawFood} from './food.js'
 import { outsideGrid } from './grid.js'
 
@@ -8,8 +8,7 @@ let gameOver = false
 const gameBoard = document.getElementById('game-board')
 
 // pop up tells you to restart
-function main(currentTime) {    
-    checkLose()
+function main(currentTime) {
     if (gameOver) {
     if (confirm('Game Over. Press ok to restart.')) {
     window.location = '/'

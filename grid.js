@@ -1,5 +1,5 @@
-// our size of grid
 const GRID_SIZE = 21
+
 // moves food to random position on grid
 export function randomGridPosition() {
     return {
